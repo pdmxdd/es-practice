@@ -21,7 +21,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Orioles",
 	"league": "American",
 	"division": "East",
-	"world_series_champions": -1
+	"world_series_champions": 3
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -32,7 +32,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Blue Jays",
 	"league": "American",
 	"division": "East",
-	"world_series_champions": -1
+	"world_series_champions": 2
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -43,7 +43,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Rays",
 	"league": "American",
 	"division": "East",
-	"world_series_champions": -1
+	"world_series_champions": 0
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -54,7 +54,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Red Sox",
 	"league": "American",
 	"division": "East",
-	"world_series_champions": -1
+	"world_series_champions": 9
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -65,7 +65,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Yankees",
 	"league": "American",
 	"division": "East",
-	"world_series_champions": -1
+	"world_series_champions": 27
 }'
 
 # AL-Central ()
@@ -77,7 +77,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Indians",
 	"league": "American",
 	"division": "Central",
-	"world_series_champions": -1
+	"world_series_champions": 2
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -88,7 +88,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "White Sox",
 	"league": "American",
 	"division": "Central",
-	"world_series_champions": -1
+	"world_series_champions": 3
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -99,7 +99,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Royals",
 	"league": "American",
 	"division": "Central",
-	"world_series_champions": -1
+	"world_series_champions": 2
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -110,7 +110,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Tigers",
 	"league": "American",
 	"division": "Central",
-	"world_series_champions": -1
+	"world_series_champions": 4
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -121,7 +121,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Twins",
 	"league": "American",
 	"division": "Central",
-	"world_series_champions": -1
+	"world_series_champions": 3
 }'
 
 # AL-West ()
@@ -133,7 +133,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Mariners",
 	"league": "American",
 	"division": "West",
-	"world_series_champions": -1
+	"world_series_champions": 0
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -144,7 +144,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Rangers",
 	"league": "American",
 	"division": "West",
-	"world_series_champions": -1
+	"world_series_champions": 0
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -155,7 +155,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Astros",
 	"league": "American",
 	"division": "West",
-	"world_series_champions": -1
+	"world_series_champions": 1
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -166,7 +166,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Angels",
 	"league": "American",
 	"division": "West",
-	"world_series_champions": -1
+	"world_series_champions": 1
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -177,7 +177,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Athletics",
 	"league": "American",
 	"division": "West",
-	"world_series_champions": -1
+	"world_series_champions": 9
 }'
 
 # NL-East ()
@@ -189,7 +189,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Nationals",
 	"league": "National",
 	"division": "East",
-	"world_series_champions": -1
+	"world_series_champions": 0
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -200,7 +200,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Braves",
 	"league": "National",
 	"division": "East",
-	"world_series_champions": -1
+	"world_series_champions": 3
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -211,7 +211,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Marlins",
 	"league": "National",
 	"division": "East",
-	"world_series_champions": -1
+	"world_series_champions": 2
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -222,7 +222,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Mets",
 	"league": "National",
 	"division": "East",
-	"world_series_champions": -1
+	"world_series_champions": 2
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -233,7 +233,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Phillies",
 	"league": "National",
 	"division": "East",
-	"world_series_champions": -1
+	"world_series_champions": 2
 }'
 
 # NL-Central ()
@@ -245,7 +245,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Reds",
 	"league": "National",
 	"division": "Central",
-	"world_series_champions": -1
+	"world_series_champions": 5
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -256,7 +256,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Pirates",
 	"league": "National",
 	"division": "Central",
-	"world_series_champions": -1
+	"world_series_champions": 5
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -267,7 +267,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Cardinals",
 	"league": "National",
 	"division": "Central",
-	"world_series_champions": -1
+	"world_series_champions": 11
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -278,7 +278,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Cubs",
 	"league": "National",
 	"division": "Central",
-	"world_series_champions": -1
+	"world_series_champions": 3
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -289,7 +289,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Brewers",
 	"league": "National",
 	"division": "Central",
-	"world_series_champions": -1
+	"world_series_champions": 0
 }'
 
 # NL-West ()
@@ -301,7 +301,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Dodgers",
 	"league": "National",
 	"division": "West",
-	"world_series_champions": -1
+	"world_series_champions": 6
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -312,7 +312,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Rockies",
 	"league": "National",
 	"division": "West",
-	"world_series_champions": -1
+	"world_series_champions": 0
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -323,7 +323,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Padres",
 	"league": "National",
 	"division": "West",
-	"world_series_champions": -1
+	"world_series_champions": 0
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -334,7 +334,7 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Giants",
 	"league": "National",
 	"division": "West",
-	"world_series_champions": -1
+	"world_series_champions": 8
 }'
 
 curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
@@ -345,6 +345,6 @@ curl -XPOST 127.0.0.1:9200/teams/_doc -H 'Content-Type: application/json' -d '
 	"name": "Diamondbacks",
 	"league": "National",
 	"division": "West",
-	"world_series_champions": -1
+	"world_series_champions": 1
 }'
 
